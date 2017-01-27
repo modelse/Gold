@@ -1,0 +1,13 @@
+body{
+    background-color: black
+}
+#ninjas{
+    margin-left: 500px;
+    height:600px;
+    width:600px;
+}
+h1{
+    color: white;
+    margin-left: 500px;
+    font-size: 80px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% load staticfiles %}
+        <link rel="stylesheet" href="{% static 'ninja/css/ninjas.css' %}"media="screen" title="no title"  charset="utf-8">
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+
+
+        {%if color == "purple"%}
+        <div>
+            <h1>DONATELLO</h1>
+            <img id='ninjas' src="{%static 'ninja/images/donatello.jpg'%}">
+        </div>
+        {%elif color == "orange"%}
+        <div>
+            <h1>MICHEELANGELO</h1>
+            <img id='ninjas' src="{%static 'ninja/images/michelangelo.jpg'%}">
+        </div>
+        {%elif color == "blue"%}
+        <div>
+            <h1>LEONARDO</h1>
+            <img id='ninjas' src="{%static 'ninja/images/leonardo.jpg'%}">
+        </div>
+        {%elif color == "red"%}
+        <div>
+            <h1>RAPHAEL</h1>
+            <img id='ninjas' src="{%static 'ninja/images/raphael.jpg'%}">
+        </div>
+        {%else%}
+        <div>
+            <h1>WRONG SHOW</h1>
+            <img id='ninjas' src="{%static 'ninja/images/scooby.png'%}">
+        </div>
+        {%endif%}
+
+    </body>
+</html>

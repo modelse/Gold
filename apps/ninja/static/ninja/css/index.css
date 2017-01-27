@@ -1,0 +1,13 @@
+h1{
+    color: white;
+    margin: auto;
+    padding-top: 200px;
+    padding-left: 300px;
+
+}
+#wrapper{
+    margin: auto;
+    background-color: pink;
+    height:600px;
+    width: 900px;
+}
